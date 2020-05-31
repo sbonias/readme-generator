@@ -4,6 +4,15 @@ function generateMarkdown(data) {
 # ${data.title}
 
 ## Table of Contents
+- [Description](#description)
+- [Deployed Application](#githubRepo)
+- [Visual Presentation](#video)
+- [Installation Requirements](#install)
+- [Usage](#usage)
+- [Licences](#licence)
+- [Contributing](#contributors)
+- [Tests](#tests)
+- [Questions](#githubImage)
 
 ## Description
  ${data.description}
@@ -15,13 +24,13 @@ function generateMarkdown(data) {
 ## Visual Representation
 ${data.video}
 
-## Install
+## Installation Requirements
 ${data.install}
 
 ## Usage
 ${data.usage}
 
-## License
+## Licenses
 ${data.license}
 
 ## Contributing
