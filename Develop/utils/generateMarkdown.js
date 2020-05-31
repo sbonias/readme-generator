@@ -3,7 +3,7 @@ function generateMarkdown(data) {
   return `
 # ${data.title}
 
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+[![npm version](http://img.shields.io/npm/v/REPO.svg?style=flat)](https://npmjs.org/package/REPO)
 
 ## Table of Contents
 - [Description](#description)
@@ -45,7 +45,7 @@ ${data.tests}
 
 ## Questions
 ![image](${data.githubImage})
-${data.githubUserName}
+- ${data.githubUserName}
 
 `;
 }

@@ -1,6 +1,6 @@
 # Node-ReadMe-Generator
 
-![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+[![npm version](http://img.shields.io/npm/v/REPO.svg?style=flat)](https://npmjs.org/package/REPO)
 
 ## Table of Contents
 
@@ -25,17 +25,17 @@ A command-line application that dynamically generates a README.md from a user's 
 
 ## Visual Presentation
 
-[A video demonstrating the entirety of the app's functionality ](https://github.com/sbonias/readme-generator)
+[A video demonstrating the entirety of the app's functionality ](www.google.com)
 
 ## Installation Requirements
 
 ```
-NPM Install Inquirer
+npm install inquirer
 ```
 
 ## Usage
 
-command line prompt application that dynamically generates a readme for your project
+Applies to developers that are looking to generate a readme file in an efficient manner
 
 ## Licenses
 
@@ -52,4 +52,5 @@ None
 ## Questions
 
 ![image](https://avatars1.githubusercontent.com/u/61953313?s=460&u=01e7d234d06ebec1cc6db4f49ebbdd2033aee143&v=4)
-sbonias84@gmail.com
+
+- sbonias84@gmail.com
