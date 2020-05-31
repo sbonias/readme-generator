@@ -3,29 +3,33 @@ function generateMarkdown(data) {
   return `
 # ${data.title}
 
+![badmath](https://img.shields.io/github/languages/top/nielsenjared/badmath)
+
 ## Table of Contents
 - [Description](#description)
-- [Deployed Application](#githubRepo)
-- [Visual Presentation](#video)
-- [Installation Requirements](#install)
+- [Deployed Application](#deployed-application)
+- [Visual Presentation](#visual-presentation)
+- [Installation Requirements](#installation-requirements)
 - [Usage](#usage)
-- [Licences](#licence)
-- [Contributing](#contributors)
-- [Tests](#tests)
-- [Questions](#githubImage)
+- [Licences](#licences)
+- [Contributing](#contributing)
+- [Tests](#tests-implemented)
+- [Questions](#questions)
 
 ## Description
- ${data.description}
+${data.description}
 
 ## Deployed Application
-- ${data.githubRepo}
-- ${data.deployedRepo}
+* [The URL of the GitHub repository](${data.githubRepo})
+* [The URL of the Deployed Application](${data.deployedRepo})
 
-## Visual Representation
-${data.video}
+## Visual Presentation
+[A video demonstrating the entirety of the app's functionality ](${data.video})
 
 ## Installation Requirements
+\`\`\`
 ${data.install}
+\`\`\`
 
 ## Usage
 ${data.usage}
@@ -40,8 +44,8 @@ ${data.contributors}
 ${data.tests}
 
 ## Questions
-- ${data.githubImage}
-- ${data.githubUserName}
+* ![image](${data.githubImage})
+* [Owner E-mail](${data.githubUserName})
 
 `;
 }
