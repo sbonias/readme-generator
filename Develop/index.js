@@ -14,7 +14,7 @@ const dotenv = require("dotenv").config();
 const generateMarkdown = require("./utils/generateMarkdown.js");
 console.log(generateMarkdown);
 
-// -------Function that initializes the question asking process--------
+// -------Function that initializes the question asking process & fs.writeFile--------
 // should rewrite as a function to apply inquirer.prompt
 // incorporate data validation?
 // this is going to be an array of questions based on readme criteria
@@ -46,8 +46,18 @@ function promptUser() {
         },
         {
           type: "input",
-          name: "tableContents",
-          message: "List out your table of contents.",
+          name: "githubRepo",
+          message: "Provide the URL of your GitHub repository.",
+        },
+        {
+          type: "input",
+          name: "deployedRepo",
+          message: "Provide a link to your deployed application.",
+        },
+        {
+          type: "input",
+          name: "video",
+          message: "Provide the URL of video showcasing the app.",
         },
         {
           type: "input",
@@ -85,7 +95,7 @@ function promptUser() {
           message: "Provide your Github e-mail address",
         },
       ])
-      // -------fs.writeFile--------
+      // -------fs.writeFile method--------
       // placed here so it occurs after the ".prompt" finishes executing
       // determine location of where file should be placed
       // create a file with name fileName = "README.md"
@@ -102,4 +112,5 @@ function promptUser() {
       })
   );
 }
+// calling function to run
 promptUser();
