@@ -27,9 +27,7 @@ Following the [common templates for user stories](https://en.wikipedia.org/wiki/
 
 ```
 AS A developer
-
 I WANT a README generator
-
 SO THAT I can easily put together a good README for a new project
 ```
 
@@ -63,9 +61,7 @@ When creating an open source project on GitHub, it is important to have a qualit
 
 ```
 GIVEN the developer has a GitHub profile and a repository
-
 WHEN prompted for the developer's GitHub username and repo specific information
-
 THEN a README for the repo is generated
 ```
 

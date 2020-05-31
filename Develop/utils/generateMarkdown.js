@@ -3,7 +3,7 @@ function generateMarkdown(data) {
   return `
 # ${data.title}
 
-[![npm version](http://img.shields.io/npm/v/REPO.svg?style=flat)](https://npmjs.org/package/REPO)
+![GitHub license](https://img.shields.io/badge/license-${data.license}-blue.svg)
 
 ## Table of Contents
 - [Description](#description)
@@ -51,3 +51,5 @@ ${data.tests}
 }
 // module.exports is an object we use to store variables or methods and allows for export
 module.exports = generateMarkdown;
+
+//https://drive.google.com/file/d/1a9bF5JFoByyJ4FjcuHiG9bn022HR5Vgh/view

@@ -1,6 +1,6 @@
 # Node-ReadMe-Generator
 
-[![npm version](http://img.shields.io/npm/v/REPO.svg?style=flat)](https://npmjs.org/package/REPO)
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 ## Table of Contents
 
@@ -25,7 +25,7 @@ A command-line application that dynamically generates a README.md from a user's 
 
 ## Visual Presentation
 
-[A video demonstrating the entirety of the app's functionality ](www.google.com)
+[A video demonstrating the entirety of the app's functionality ](https://drive.google.com/file/d/1a9bF5JFoByyJ4FjcuHiG9bn022HR5Vgh/view)
 
 ## Installation Requirements
 
